@@ -1,0 +1,4 @@
+files/*
+exportSettings.json
+serviceAccountKey.json
+node_modules
