@@ -10,7 +10,7 @@ const fire = admin.firestore()
 
 exportSettings.forEach((exportSettings) => {
     const csvWriter = createCsvWriter({
-        path: `files/${exportSettings.collection}`,
+        path: `files/${exportSettings.collection}.csv`,
         header: exportSettings.header,
     })
     
